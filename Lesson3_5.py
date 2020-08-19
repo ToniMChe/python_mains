@@ -10,7 +10,7 @@ def sum_of_numbers(numbers, word):
 total_sum = 0
 stop_word = "stop"
 
-print("""Чтобы остановиться введите stop.
+print("""Чтоб остановиться введите stop.
 Если хотите остановиться после текущей строки, введите стоп после цифр.""")
 
 while True:
