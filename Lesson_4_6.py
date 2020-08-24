@@ -12,7 +12,7 @@ for number in itertools.count(first_number):
     else:
         print(number)
 
-print("")
+print('')
 
 for number in itertools.cycle(input_numbers):
     if replay > 4:
