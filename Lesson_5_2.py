@@ -19,5 +19,6 @@ with open(file_path, 'rt', encoding='UTF-8') as file:
                     chain = 0
 
 counter_lines += 1
+
 print("Количество строк: {}".format(counter_lines))
 print("Количество слов: {}".format(counter_words))
