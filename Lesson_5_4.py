@@ -1,7 +1,10 @@
 from pathlib import Path
 
 new_lines = []
-translation = {"one": "один", "two": "два", "three": "три", "four": "четыре"}
+translation = {"one": "один",
+               "two": "два",
+               "three": "три",
+               "four": "четыре"}
 
 file_path1 = Path(__file__).parent.joinpath('Lesson5_4_1.txt')
 file_path2 = Path(__file__).parent.joinpath('Lesson5_4_2.txt')
