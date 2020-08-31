@@ -10,7 +10,7 @@ class Road:
     def count_salary(self):
         self.__need_in_asphalt = self.width * self.length * self.__weight_asphalt * self.__fat_of_asphalt / 1000
         self.__need_in_asphalt = round(self.__need_in_asphalt)
-        print("{}м * {}м * {}кг * {}см = {} т"
+        print("{}м * {}м * {}кг * {}см = {}т"
               .format(self.width, self.length, self.__weight_asphalt, self.__fat_of_asphalt, self.__need_in_asphalt))
 
     def display_road(self):

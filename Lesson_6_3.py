@@ -7,7 +7,7 @@ class Worker:
         self.__income = {"wage": wage, "bonus": bonus}
 
     def worker_character(self):
-        print("Имя: {}, фамилия: {},должность: {}, зарплата: {}."
+        print("Имя: {}, фамилия: {},должность: {}, зарплата и премия: {}."
               .format(self.name, self.surname, self.position,
                       self.__income))
 
